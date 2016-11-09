@@ -12,9 +12,21 @@ namespace Code_Academy.Models
 
     public class Enrollment
     {
+        /// <summary>
+        /// the primery key for EnrollmentID
+        /// </summary>
         public int EnrollmentID { get; set; }
+        /// <summary>
+        /// The foreign key for CourseID 
+        /// </summary>
         public int CourseID { get; set; }
+        /// <summary>
+        /// The foreign key for StudentID 
+        /// </summary>
         public int StudentID { get; set; }
+        /// <summary>
+        /// The enum  property for Grade
+        /// </summary>
         public Grade? Grade { get; set; }
 
         public virtual Course Course { get; set; }
