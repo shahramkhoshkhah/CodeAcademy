@@ -2,6 +2,9 @@
 
 namespace Code_Academy.Models
 {
+    /// <summary>
+    /// Enum for grades
+    /// </summary>
     public enum Grade
     {
         A, B, C, D, F
